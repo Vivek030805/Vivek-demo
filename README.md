@@ -5,9 +5,8 @@
 1. Demonstration
 2. What is Accident Detection System?
 3. Prerequisites
-4. Getting Started- How to use it?
-5. Description
-6. Future Work
+4. Description
+5. Future Work
 
 ## 1. Demonstration
 
@@ -22,21 +21,7 @@ An accident Detection System is designed to detect accidents via video or CCTV f
 - To use this project Python Version > 3.6 is recommended.
 - To contribute to this project, knowledge of basic python scripting, Machine Learning, and Deep Learning will help.
 
-## 4. Getting Started - How to use it?
-
-### Clone this repository
-
-`https://github.com/krishrustagi/Accident-Detection-System.git`
-
-To install all the packages required to run this python program
-`pip install -r requirements.txt`
-
-**Note:** This project requires a camera. So make sure you have a connected camera to your device. You can also use a downloaded video if not using a camera.
-
-### Run
-Before running the program, you need to run the `accident-classification.ipynb` file which will create the `model_weights.h5` file. Then, to run this python program, you need to execute the `main.py` python file.
-
-## 5. Description
+## 4. Description
 
 This program includes 4 things.
 
@@ -44,7 +29,8 @@ This program includes 4 things.
 2. `accident-classification.ipynb`: This is a jupyter notebook that generates a model to classify the above data. This file generates two important files `model.json` and `model_weights.h5`.
 3. `detection.py`: This file loads the Accident Detection system with the help of `model.json` and `model_weights.h5` files.
 4. `camera.py`: It packs the camera and executes the `detection.py` file on the video dividing it frame by frame and displaying the percentage of the prediction in the accident (if present) in the frame.
+5. An app for end users to know all the things about the accident 
 
-## 6. Future Work
+## 5. Future Work
 
-We can use an alarm system that can call the nearest police station in case of an accident and also alert them of the severity of the accident.
+Number plate recognition to fetch out accident victims to let their family know all the things about the accident through the highway guardian app
