@@ -33,4 +33,4 @@ This program includes 4 things.
 
 ## 5. Future Work
 
-Number plate recognition to fetch out accident victims to let their family know all the things about the accident through the highway guardian app
+Number plate recognition to fetch out accident victims to let their family know all the things about the accident through the highway guardian app.
